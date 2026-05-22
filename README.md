@@ -32,7 +32,10 @@ All videos were captured at various dive sites in Zamboanguita, Negros Oriental,
 
 ### Comparison of Models
 
-- _Add results as models are tested_
+- _Add results as models are tested_:
+  - processing time (for each fps changes and resolution)
+  - accuracy (test on labelled data?)
+  - gpu requirement
 
 ## Methodology
 
