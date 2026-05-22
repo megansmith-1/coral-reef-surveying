@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: Input videos (large files not tracked in git)
+input-videos/*.mp4
+input-videos/*.mov
+input-videos/*.avi
+input-videos/*.mkv
+input-videos/1-camera/*
+input-videos/2-cameras/*
+!input-videos/README.md
