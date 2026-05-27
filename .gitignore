@@ -6,6 +6,11 @@ __pycache__/
 # macOS
 .DS_Store
 
+# Model directories (external repos - not committed)
+models/*/
+!models/.gitkeep
+!models/README.md
+
 # C extensions
 *.so
 

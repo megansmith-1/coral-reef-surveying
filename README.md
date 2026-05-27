@@ -45,8 +45,10 @@ All models are evaluated using:
 
 ## Getting Started
 
-Each model has its own setup instructions. See the specific model's `README.md`:
+Each model has its own setup instructions and shell script (in this repository) that runs it. See below:
 
-- [MEE DeepReefMap Setup](models/mee-deepreefmap/README.md)
+| Model           | Setup                                            | Notes                                                                            |
+| --------------- | ------------------------------------------------ | -------------------------------------------------------------------------------- |
+| MEE DeepReefMap | [Instructions](models/mee-deepreefmap/README.md) | Requires system install of FFmpeg with libx264. Run: `sh run_mee_deepreefmap.sh` |
 
 To add a new model, create a directory in `models/` and follow the same structure.
