@@ -34,6 +34,9 @@ All videos were captured at various dive sites in Zamboanguita, Negros Oriental,
 
 ### Comparison of Models
 
+- DeepReefMap V2 was better at segmenting clusters of coral with different growth types
+- V2 also sometimes correctly identified soft corals as "other coral alive" rather than misclassifying it as a type of branching genus.
+
 ## Getting Started
 
 Each model has its own setup instructions and shell script (in this repository) that runs it. See below:
