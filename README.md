@@ -48,10 +48,10 @@ _Comparison between DeepReefMap V1 (left) and V2 (right) showing their varing ab
 
 ## Getting Started
 
-Each model has its own setup instructions and shell script (in this repository) that runs it. See below:
+Check out this repository and install each of the models into their own folder under /models. Each model has its own setup instructions in their respective README.md files. To run the models on your video data run the respective shell files from the root of this repository, giving the path to your input videos stored in/input-videos.
 
-| Model           | Setup                                            | Notes                                                                             |
-| --------------- | ------------------------------------------------ | --------------------------------------------------------------------------------- |
-| MEE DeepReefMap | [Instructions](models/mee-deepreefmap/README.md) | Requires system install of FFmpeg with libx264. Run: `sh run_mee_deepreefmap.sh`. |
+To run the analuse_video_metadata.py script on your videos, install the Python environment specified in environment.yml with `conda env export > environment.yml`.
 
-For both DeepReefMap models, you will need to make a couple of adjustments if you work on macOS to let the scripts utilise the GPU.
+### Notes on setting up DeepReefMap repositories
+
+Both models require a system install of FFmpeg with libx264. If running on macOS some adjustments need to be done throughout the codebase to instruct PyTorch to use "mps" as the GPU rather than "cuda".
