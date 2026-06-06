@@ -28,6 +28,7 @@ All videos were captured at various dive sites in Zamboanguita, Negros Oriental,
 - Accurately classifies patches of seagrass, sand and rubble
 
 ![Example of strengths](assets/strengths.gif)
+
 _DeepReefMap V1 showing successful identification of branching corals (table acropora specifically), fish and patches of sand and rubble_
 
 **Weaknesses**
@@ -36,7 +37,8 @@ _DeepReefMap V1 showing successful identification of branching corals (table acr
 - Submassive coral — confused with massive coral, likely due to overlapping morphology across species; Porites submassives in particular are consistently labelled as massives
 
 ![Example of weaknesses](assets/weaknesses.gif)
-_DeepReefMap V2 showing misidentification of the porites submassive growth form as a massive and a large soft coral as various genera of branching_
+
+_DeepReefMap V2 showing misidentification of the Porites submassive growth form as a massive and a large soft coral as various genera of branching_
 
 ### Comparison of Models
 
@@ -44,6 +46,7 @@ _DeepReefMap V2 showing misidentification of the porites submassive growth form 
 - V2 also sometimes correctly identified soft corals as "other coral alive" rather than misclassifying it as a type of branching genus.
 
 ![Example of model differences](assets/model_comparison.gif)
+
 _Comparison between DeepReefMap V1 (left) and V2 (right) showing their varing abilities to correctly identify different health states of branching coral_
 
 ## Getting Started
