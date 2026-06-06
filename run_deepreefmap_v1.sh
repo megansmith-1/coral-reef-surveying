@@ -1,5 +1,5 @@
 #!/bin/bash
-# Example script to run MEE DeepReefMap model on a single video
+# Example script to run DeepReefMap V1 model on a single video
 # Run from coral-reef-surveying/ root directory
 
 cd models/mee-deepreefmap/src
@@ -7,7 +7,7 @@ cd models/mee-deepreefmap/src
 # Ensure system FFmpeg is in PATH before running uv
 export PATH="/opt/homebrew/bin:$PATH"
 
-filename="Andulay_S-M1_50M_trimmed"
+filename="Andulay_Diseased_Table" # Change this to the name of your input video (without .MP4 extension)
 
 # Run with uv python (uses all dependencies) but system FFmpeg
 uv run python3 -u reconstruct.py \

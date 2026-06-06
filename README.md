@@ -23,19 +23,28 @@ All videos were captured at various dive sites in Zamboanguita, Negros Oriental,
 
 **Strengths**
 
-- Distinguishes branching coral genera across health states (dead, bleached, alive)
+- Distinguishes the different table and branching coral genera
 - Reliably detects fish (correctly treated as non-benthic)
-- Accurately classifies seagrass and sand
+- Accurately classifies patches of seagrass, sand and rubble
+
+![Example of strengths](assets/strengths.gif)
+_DeepReefMap V1 showing successful identification of branching corals (table acropora specifically), fish and patches of sand and rubble_
 
 **Weaknesses**
 
 - Soft coral — frequently misclassified as branching, massive, or "other"
 - Submassive coral — confused with massive coral, likely due to overlapping morphology across species; Porites submassives in particular are consistently labelled as massives
 
+![Example of weaknesses](assets/weaknesses.gif)
+_DeepReefMap V2 showing misidentification of the porites submassive growth form as a massive and a large soft coral as various genera of branching_
+
 ### Comparison of Models
 
-- DeepReefMap V2 was better at segmenting clusters of coral with different growth types
+- DeepReefMap V2 was better at segmenting clusters of coral with different growth types and health states
 - V2 also sometimes correctly identified soft corals as "other coral alive" rather than misclassifying it as a type of branching genus.
+
+![Example of model differences](assets/model_comparison.gif)
+_Comparison between DeepReefMap V1 (left) and V2 (right) showing their varing abilities to correctly identify different health states of branching coral_
 
 ## Getting Started
 
